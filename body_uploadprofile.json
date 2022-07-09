@@ -1,0 +1,30 @@
+{
+  "iccid": "iccid_value",
+  "mnoId": "mno-id",
+  "allowedRequesterId": "mno-id",
+  "profileType": "profileType_value",
+  "state": "AVAILABLE",
+  "profileMetaData": {
+    "operatorServiceProviderName": "default",
+    "profileName": "default",
+    "iconType": 1,
+    "icon": "icon of the profile in hex",
+    "profileClass": "OPERATIONAL",
+    "profileOwner": {
+      "mccMnc": "mcc and mnc value of the operator"
+    },
+    "notificationConfigurationInfo": [
+      {
+        "notificationAddress": "customer fqdn",
+        "notificationDisable": true,
+        "notificationInstall": true,
+        "notificationEnable": true,
+        "notificationDelete": true
+      }
+    ],
+    "profilePolicyRules": [false, false]
+  },
+  "upp": "",
+  "verificationCertificateVersion": "1",
+  "decryptionKeyVersion": 1
+}

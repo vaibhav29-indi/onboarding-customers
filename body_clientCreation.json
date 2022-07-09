@@ -1,0 +1,27 @@
+{
+  "id": null,
+  "client_id": "version1",
+  "resource_ids": ["rpa"],
+  "secret_required": true,
+  "scope": [
+    "rpa_access",
+    "rpa_access_admin",
+    "rpa_access_proprietary",
+    "rpa_access_proprietary_admin",
+    "rpa_access_internal"
+  ],
+  "authorized_grant_types": ["client_credentials"],
+  "registered_redirect_uri": ["http://localhost:8080"],
+  "authorities": [
+    {
+      "authority": "ROLE_M2M"
+    }
+  ],
+  "access_token_validity_seconds": 3600,
+  "refresh_token_validity_seconds": 14400,
+  "auto_approve": true,
+  "additional_information": {
+    "mnoIds": ["x.x.x.x"]
+  },
+  "scoped": true
+}
